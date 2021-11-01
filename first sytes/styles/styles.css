@@ -1,0 +1,81 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	background: white;
+	color: black;
+
+
+}
+.container{
+	height: 400px;
+	width: 900px;
+	background: #ccc;
+	padding: 20px;
+	position: relative;
+	margin: 20 auto;
+}
+
+.block{
+	background: black;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	transition: 0.3s;
+}
+
+.block:hover{
+
+	width: 230px;
+
+
+}
+
+.container:hover .a1 {
+
+	left: 0;
+
+}
+
+.a1{
+	background: green;
+	z-index: 9;
+	top: 0;
+	left: -245px;
+	transition: 0.3;
+
+}
+
+.a1:hover{
+
+	background: yellow;
+}
+
+.a2{
+	background: hotpink;
+	z-index: 2;
+	top: 0;
+	right: 0px;
+
+}
+
+.a3{
+	background: yellow;
+	z-index: 3;
+	bottom: 0;
+	left: 600px;
+
+}
+
+.clearFix{
+
+	clear: both;
+}

@@ -85,22 +85,22 @@ html{
 }
 
 .container3 {
-	text-align: center;
-	overflow: hidden;
+	display: flex;
+	justify-content:center;
 	margin: 20px auto;
 	background:rgba(196, 196, 196, 1) ;
 	width: 1112px;
 	min-height: 269px;
-	float: none;
+	
 
 }
 
 .a3{ 
 	background: #5CCC6E;
-	margin-left:235px;
-
 
 }
+
+
 
 .b3{
 

@@ -15,8 +15,8 @@ scroll-behavior: smooth;
 	transition: 1s;
 	background: #C4C4C4;
 	width:871px	 ;
-	height: 683px;
-	margin: 10px;
+	height: 680px;
+	margin: 10px auto;
 	position: relative;
 }
 
@@ -28,7 +28,7 @@ scroll-behavior: smooth;
 	color: #FFFFFF;
 	transition: 1s;
 	position: absolute;
-	margin: 10px;
+	margin: 10px 10px 10px 10px;
 	width: 200px;
 	height: 200px;
 	background: #323232
@@ -38,7 +38,8 @@ scroll-behavior: smooth;
 .a1{
 
 	top: 18px;
-	left: 21px;
+	left: 21px; 
+
 }
 
 .a2{
@@ -75,10 +76,7 @@ left: 21px;
 
 	background:#D58685 ;
 	height: 230px;
-	width: 230px;
-	margin-right: 36px;
-	margin-bottom: 36px;
-	margin-left: 36px;
+	
 
 
 }
@@ -137,52 +135,53 @@ bottom: 0px;
 }
 
 .a5{
-	top: 18px;
-	left: none;
+	top: 10px;
+	left: 10px;
 	transition: 1s;
 	
 
 }
 
+.container:hover .a5{
+	background: #D3C745;
+	left: 660px;
+
+}
+
 .a6{
-	top: 18;
+	top: 18px;
 	right: 15px;
-	transition: 1s;
 	
+	
+}
+
+.container:hover .a6{
+	right: 15px;
+	top: 435px;
+
 }
 
 .a7{
 	right: 15px;
 	bottom: 12px;
-	transition: 1s;
+	
+}
+
+.container:hover .a7{
+
+	right:650px ;
+
 }
 
 .a8{
-	transition: 1s;
+	
 	left: 21px;
 	bottom: 12px;
 }
 
-.container:hover .a5{
-	background: #D3C745;
-	right: 0px;
-
-}
-
-.container:hover .a6{
-	
-	bottom: 0px;
-
-}
-.container:hover .a7{
-
-	left: 0px;
-
-}
-
 .container:hover .a8{
 
-top: 0px;
+	bottom: 435px;
 
 }
 
