@@ -13,7 +13,7 @@ body {
 header {
 	margin: 0px auto;
 	height: 100vh;
-	background-image: url(../images/fon.jpg);
+	background: url(../images/fon.jpg) #fff;
 }
 .top-line {
 	display: flex;
@@ -26,7 +26,7 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 180px;
-	letter-spacing: 2px;.
+	letter-spacing: 2px;
 }
 .log1 {
 	width: 104px;
