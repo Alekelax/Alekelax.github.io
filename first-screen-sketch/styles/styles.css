@@ -13,7 +13,7 @@ body {
 header {
 	margin: 0px auto;
 	height: 100vh;
-	background: url("/images/fon.jpg") rgb(128, 204, 78);
+	background: url("../images/fon.jpg") rgb(128, 204, 78);
 }
 .top-line {
 	display: flex;
