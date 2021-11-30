@@ -1,0 +1,89 @@
+html {
+	scroll-behavior: smooth;
+}
+
+header {
+	background: url(../img/for-header.jpg) #000;
+	background-size: cover;
+	height: 100vh;
+}
+/*Верхние ссылки и текст слева*/
+.for-margine,
+.m-for-btn {
+	margin-top: 21%;
+}
+.line {
+	width: 100px;
+	height: 3px;
+	background-color: #000;
+	margin: 30px auto;
+}
+/*Services*/
+.icon-size-for {
+	width: 150px;
+	height: 150px;
+}
+/*latest works*/
+
+.my-b {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	color: rgba(0, 0, 0, 0);
+	transition: 0.5s;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.my-b:hover {
+	color: rgb(0, 0, 0);
+	background-color: rgb(250, 242, 231);
+	border-color: rgb(248, 224, 187);
+	color: rgb(0, 0, 0);
+}
+
+.g-img-1 {
+	background: url(../img/bike.jpg);
+	background-repeat: no-repeat;
+}
+
+.g-img-2 {
+	background: url(../img/camera.jpg);
+}
+.g-img-3 {
+	background: url(../img/drawing.jpg);
+}
+.g-img-4 {
+	background: url(../img/events\ entertaiment-4.jpg);
+}
+.g-img-5 {
+	background: url(../img/heir-dresser.jpg);
+}
+.g-img-6 {
+	background: url(../img/note-book.jpg);
+}
+.g-img-7 {
+	background: url(../img/noutbuk-telefon-naushniki.jpg);
+}
+.g-img-8 {
+	background: url(../img/events\ entertaiment-4.jpg);
+}
+.g-img-9 {
+	background: url(../img/table-with-smth.jpg);
+}
+.btn-on-photo {
+	background-color: rgba(255, 235, 205, 0.322);
+	border-color: rgba(255, 235, 205, 0.459);
+	color: rgba(0, 0, 0, 0.671);
+	position: absolute;
+	left: 35%;
+	bottom: 10px;
+}
+.btn-on-photo:hover {
+	background-color: rgb(250, 242, 231);
+	border-color: rgb(248, 224, 187);
+	color: rgb(0, 0, 0);
+}
+.footer {
+	background: url(../img/footer.jpg);
+	background-size: cover;
+}
