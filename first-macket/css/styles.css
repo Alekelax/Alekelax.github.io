@@ -1,89 +1,137 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 header {
-	background: url(../img/for-header.jpg) #000;
-	background-size: cover;
-	height: 100vh;
+    background: url(../img/for-header.jpg) #000;
+    background-size: cover;
 }
+
+
 /*Верхние ссылки и текст слева*/
-.for-margine,
-.m-for-btn {
-	margin-top: 21%;
+
+.for-margine {
+    margin-top: 15%;
 }
+
 .line {
-	width: 100px;
-	height: 3px;
-	background-color: #000;
-	margin: 30px auto;
+    width: 100px;
+    height: 3px;
+    background-color: #000;
+    margin: 30px auto;
 }
+
+
 /*Services*/
+
 .icon-size-for {
-	width: 150px;
-	height: 150px;
+    width: 150px;
+    height: 150px;
 }
+
+
 /*latest works*/
 
 .my-b {
-	margin: 10px;
-	width: 200px;
-	height: 200px;
-	color: rgba(0, 0, 0, 0);
-	transition: 0.5s;
-	background-repeat: no-repeat;
-	position: relative;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
 .my-b:hover {
-	color: rgb(0, 0, 0);
-	background-color: rgb(250, 242, 231);
-	border-color: rgb(248, 224, 187);
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 242, 231);
+    border-color: rgb(248, 224, 187);
+    color: rgb(0, 0, 0);
 }
 
-.g-img-1 {
-	background: url(../img/bike.jpg);
-	background-repeat: no-repeat;
+
+/*slider*/
+
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(196, 178, 178, 0.425);
 }
 
-.g-img-2 {
-	background: url(../img/camera.jpg);
+.slick-list {
+    overflow: hidden;
 }
-.g-img-3 {
-	background: url(../img/drawing.jpg);
+
+.slider {
+    position: relative;
+    padding: 0px 50px;
 }
-.g-img-4 {
-	background: url(../img/events\ entertaiment-4.jpg);
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+    border-color: rgba(222, 184, 135, 0);
 }
-.g-img-5 {
-	background: url(../img/heir-dresser.jpg);
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url("../img/sl-arrow_l.png") 0 0 / 100% no-repeat;
 }
-.g-img-6 {
-	background: url(../img/note-book.jpg);
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+    background: url("../img/sl-arrow_r.png") 0 0 / 100% no-repeat;
 }
-.g-img-7 {
-	background: url(../img/noutbuk-telefon-naushniki.jpg);
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.g-img-8 {
-	background: url(../img/events\ entertaiment-4.jpg);
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0 10px;
 }
-.g-img-9 {
-	background: url(../img/table-with-smth.jpg);
+
+.slider .slick-dots button {
+    font-size: 0px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
 }
-.btn-on-photo {
-	background-color: rgba(255, 235, 205, 0.322);
-	border-color: rgba(255, 235, 205, 0.459);
-	color: rgba(0, 0, 0, 0.671);
-	position: absolute;
-	left: 35%;
-	bottom: 10px;
+
+.slider .slick-dots li.slick-active button {
+    background-color: rgba(255, 255, 255, 0.425);
+    border: 1px solid rgb(202, 177, 177);
 }
-.btn-on-photo:hover {
-	background-color: rgb(250, 242, 231);
-	border-color: rgb(248, 224, 187);
-	color: rgb(0, 0, 0);
+
+.slider-item {
+    transition: all 0.3s ease 0s;
+    opacity: 0.4;
+    text-align: center;
 }
+
+.slider-item.slick-center {
+    opacity: 1;
+}
+
+.m-for-btn-1 {
+    position: absolute;
+    bottom: 8px;
+    margin-left: 69px;
+}
+
+.for-butt {
+    position: relative;
+}
+
 .footer {
-	background: url(../img/footer.jpg);
-	background-size: cover;
+    background: url(../img/footer.jpg);
 }
